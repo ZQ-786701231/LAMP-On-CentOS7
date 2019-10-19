@@ -48,6 +48,7 @@ phpinfo();
 ?>
 ```
 press ESC and input:wq!,enter
+
 Restart apache so that all of the changes take effect on your virtual server
 ```
 service httpd restart
