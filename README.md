@@ -6,6 +6,10 @@ yum install httpd
 
 service httpd start
 ```
+find your Server’s IP address
+```
+ip addr(or ifconfig)
+```
 To check if Apache is installed, direct your browser to your server’s IP address (eg. http://12.34.56.789). The page should display 
 
 # Step Two—Install MySQL:
@@ -37,7 +41,7 @@ To set this up, first create a new file:
 ```
 vi /var/www/html/info.php
 ```
-# Add in the following line:
+Add in the following line:
 ```
 <?php
 phpinfo();
